@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(49, 49, 49);
+}
+.keyboard-box{
+    width: 1000px;
+    height: 300px;
+    box-shadow: rgba(125, 125, 125, 0.616)0px 7px 29px 0px;
+    margin: auto;
+    margin-top: 250px;
+border-radius: 20px;
+}
+.keyboard-box button{
+    width: 60px;
+    height: 50px;
+    margin: 6px;
+    margin-top: 30px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.top , .Center , .bottom{
+    display: flex;
+    justify-content: center;
+}
+.active{
+    box-shadow: rgb(98, 98, 98) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
