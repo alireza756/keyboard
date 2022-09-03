@@ -6,7 +6,7 @@ body{
     height: 300px;
     box-shadow: rgba(125, 125, 125, 0.616)0px 7px 29px 0px;
     margin: auto;
-    margin-top: 250px;
+    margin-top: 50px;
 border-radius: 20px;
 }
 .keyboard-box button{
@@ -25,4 +25,50 @@ border-radius: 20px;
 }
 .active{
     box-shadow: rgb(98, 98, 98) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.text-zone{
+    width: 880px;
+    height: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 130px;
+    border-radius: 20px;
+    resize: none;
+    padding: 20px;
+    font-size: 20px;
+    outline: none;
+}
+.help-button{
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: .5s;
+    position: relative;
+}
+.help-button:hover{
+    background-color: lightgray;
+    cursor: pointer;
+    color: black;
+}
+.help-box{
+    position: absolute;
+    left: 25px;
+    /* top: 76px; */
+    top: 100px;
+    font-size: 20px;
+    background-color: lightgray;
+    border-radius: 20px;
+    width: 120px;
+    text-align: center;
+    display: none;
+    
+}
+.help-button:hover  .help-box{
+    display: block;
+    top: 76px;
+    transition: .5s;
 }
