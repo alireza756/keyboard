@@ -8,7 +8,7 @@ helpe_btn.addEventListener('click' , function(){
   document.querySelector('.help-box').style.opacity=  "1";
 })
 btn.addEventListener('keydown' , function(e){
-    //new feature for show About us button
+    //new feature for add rgb in buttons
     if(e.altKey && e.key == 'a'){
         let help_text = document.querySelector('.help-text');
         help_text.classList.toggle('help_text_rgb');
