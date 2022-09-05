@@ -69,6 +69,23 @@ border-radius: 20px;
     opacity: 0;
     animation: border 10s infinite;
 }
+.rgb{
+    animation: color 10s infinite;
+
+}
+@keyframes color {
+    0% { background-color:  rgb(141, 0, 0);  }
+    10%{ background-color:   rgb(141, 96, 0);}
+    20%{ background-color:   rgb(87, 141, 0);}
+    30%{ background-color:   rgb(0, 141, 66);}
+    40%{ background-color:  rgb(0, 141, 118);}
+    50%{ background-color:   rgb(0, 94, 141);}
+    60%{ background-color:   rgb(0, 31, 141);}
+    70%{ background-color:   rgb(28, 0, 141);}
+    80%{ background-color:   rgb(66, 0, 141);}
+    90%{ background-color:  rgb(113, 0, 141);}
+    100%{background-color:  rgb(141, 0, 129);}
+}
 @keyframes border {
     0%{border: 10px solid rgb(141, 0, 0);}
     10%{border:10px solid  rgb(141, 96, 0);}

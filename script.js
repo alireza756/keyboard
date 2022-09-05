@@ -10,8 +10,10 @@ helpe_btn.addEventListener('click' , function(){
 btn.addEventListener('keydown' , function(e){
     //new feature for show About us button
     if(e.altKey && e.key == 'a'){
-        document.querySelector('.help-box').style.top = "100px";
-        document.querySelector('.help-box').style.opacity=  "1";
+        let button = document.querySelectorAll('button');
+        for(let i = 0 ; i <= 33 ; i++){
+        button[i].classList.toggle('rgb');
+        }
     }
     //find button and add style for client
     for(let i = 0 ; i <= 33 ; i++){
