@@ -38,7 +38,7 @@ border-radius: 20px;
     padding: 20px;
     font-size: 20px;
     outline: none;
-    animation: border 50s infinite;
+    /* animation: border 50s infinite; */
 }
 .help-button{
     color: white;
@@ -71,7 +71,6 @@ border-radius: 20px;
 }
 .rgb{
     animation: color 5s infinite;
-
 }
 @keyframes color {
     0% { background-color:  rgb(141, 0, 0);  }
