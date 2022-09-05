@@ -10,6 +10,8 @@ helpe_btn.addEventListener('click' , function(){
 btn.addEventListener('keydown' , function(e){
     //new feature for show About us button
     if(e.altKey && e.key == 'a'){
+        let help_text = document.querySelector('.help-text');
+        help_text.classList.toggle('help_text_rgb');
         let button = document.querySelectorAll('button');
         for(let i = 0 ; i <= 33 ; i++){
         button[i].classList.toggle('rgb');

@@ -3,7 +3,7 @@ body{
 }
 .keyboard-box{
     width: 1000px;
-    height: 300px;
+    height: 320px;
     box-shadow: rgba(125, 125, 125, 0.616)0px 7px 29px 0px;
     margin: auto;
     margin-top: 10px;
@@ -70,7 +70,7 @@ border-radius: 20px;
     animation: border 10s infinite;
 }
 .rgb{
-    animation: color 10s infinite;
+    animation: color 5s infinite;
 
 }
 @keyframes color {
@@ -101,4 +101,21 @@ border-radius: 20px;
 }
 .github-icon img{
     width: 40px;
+}
+.help-text{
+    text-align: center;
+    font-size: 22px;
+    color:  white;
+    font-weight: bolder;
+}
+.help_text_rgb{
+    animation: help 10s infinite;
+}
+@keyframes help {
+    0%{  color:   rgb(141, 0, 0);}
+    20%{ color:   rgb(87, 141, 0);}
+    40%{ color:   rgb(0, 141, 118);}
+    60%{ color:   rgb(0, 55, 255);}
+    80%{ color:   rgb(148, 152, 255);}
+    100%{color:   rgb(141, 0, 129);}
 }
