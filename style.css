@@ -38,6 +38,7 @@ border-radius: 20px;
     padding: 20px;
     font-size: 20px;
     outline: none;
+    animation: border 50s infinite;
 }
 .help-button{
     color: white;
