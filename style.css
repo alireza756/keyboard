@@ -19,6 +19,7 @@ border-radius: 20px;
     border: none;
     cursor: pointer;
     font-weight: bold;
+    outline: none;
 }
 .top , .Center , .bottom{
     display: flex;
@@ -70,7 +71,7 @@ border-radius: 20px;
     animation: border 10s infinite;
 }
 .rgb{
-    animation: color 5s infinite;
+    animation: color 5s infinite; 
 }
 @keyframes color {
     0% { background-color:  rgb(141, 0, 0);  }
