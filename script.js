@@ -25,6 +25,7 @@ btn.addEventListener('keydown' , function(e){
             let b = Math.floor(Math.random() * 250);
             let c = Math.floor(Math.random() * 250);
             value[i].style.color = `rgb(${a}, ${b}, ${c})`;
+            //check client capslock
             if (e.getModifierState("CapsLock")) {
                 text.value += value[i].innerHTML.toUpperCase();
               } else {
